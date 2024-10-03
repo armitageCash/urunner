@@ -1,0 +1,21 @@
+{
+  "name": "urunner-lib",
+  "version": "1.0.0",
+  "description": "A reusable runtime library for managing use cases and dependencies",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "runtime",
+    "usecase",
+    "dependency-injection"
+  ],
+  "author": "Andrew Castro.",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
